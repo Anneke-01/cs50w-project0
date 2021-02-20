@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #676767;
+}
+
+#pageNumber {
+  float: left;
+  margin: 0;
+  padding-right: 10px;
+  width: 141px;
+  height: 900px;
+  font-size: 123px;
+  font-weight: 100;
+  color: #676767;
+  text-align: right;
+  background-color: #e3e3e3;
+  background-image: url("https://i.pinimg.com/564x/a0/7e/bd/a07ebd32b489dcf01905f35d0f73b306.jpg");
+  background-attachment: fixed;
+}
+
+#kolomrechts {
+  position: fixed;
+  top: 0px;
+  left: 900px;
+  width: 300px;
+  float: left;
+  border-left: 1px solid #B2B2B2;
+  border-right: 1px solid #B2B2B2;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 200px;
+  padding-bottom: 32000px;
+  margin-bottom: -32000px;
+}
+
+#footer {
+  position: fixed;
+  top: 560px;
+  left: 1000px;
+  padding-left: 0px;
+  color: #676767;
+  font-size: 60%;
+}
+
+#navTitle {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #676767;
+  text-align-last: center;
+}
+
+#p {
+  color: #676767;
+}
+
+#pletra {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.row {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4 px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%;
+  /* IE10 */
+  -webkit-box-flex: 25%;
+          flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 20px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#subtitulo {
+  font-size: 14px;
+  text-transform: lowercase;
+  color: #9D9EA0;
+  margin-top: 10px;
+  padding: 0;
+  padding-left: 30px;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    -webkit-box-flex: 50%;
+            flex: 50%;
+    max-width: 50%;
+  }
+  #pageNumber {
+    float: left;
+    margin: 0;
+    padding-right: 10px;
+    width: 141px;
+    height: 1800px;
+    font-size: 123px;
+    font-weight: 100;
+    color: #676767;
+    text-align: right;
+    background-color: #e3e3e3;
+    background-image: url("https://i.pinimg.com/564x/a0/7e/bd/a07ebd32b489dcf01905f35d0f73b306.jpg");
+    background-attachment: fixed;
+  }
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    -webkit-box-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
+  #pageNumber {
+    float: left;
+    margin: 0;
+    padding-right: 10px;
+    width: 141px;
+    height: 1800px;
+    font-size: 123px;
+    font-weight: 100;
+    color: #676767;
+    text-align: right;
+    background-color: #e3e3e3;
+    background-image: url("https://i.pinimg.com/564x/a0/7e/bd/a07ebd32b489dcf01905f35d0f73b306.jpg");
+    background-attachment: fixed;
+  }
+  div.example {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
