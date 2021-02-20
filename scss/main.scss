@@ -116,6 +116,20 @@ color: $primary-color;
     flex: 50%;
     max-width: 50%;
   }
+  #pageNumber {
+    float: left;
+    margin: 0;
+    padding-right: 10px;
+    width: 141px;
+    height: 1800px;
+    font-size: 123px;
+    font-weight: 100;
+    color:$primary-color;
+    text-align: right;
+    background-color: #e3e3e3;
+    background-image: url('https://i.pinimg.com/564x/a0/7e/bd/a07ebd32b489dcf01905f35d0f73b306.jpg');
+    background-attachment: fixed;
+  }
   
 }
 
@@ -126,6 +140,20 @@ color: $primary-color;
     flex: 100%;
     max-width: 100%;
     
+  }
+  #pageNumber {
+    float: left;
+    margin: 0;
+    padding-right: 10px;
+    width: 141px;
+    height: 1800px;
+    font-size: 123px;
+    font-weight: 100;
+    color:$primary-color;
+    text-align: right;
+    background-color: #e3e3e3;
+    background-image: url('https://i.pinimg.com/564x/a0/7e/bd/a07ebd32b489dcf01905f35d0f73b306.jpg');
+    background-attachment: fixed;
   }
   
 }
