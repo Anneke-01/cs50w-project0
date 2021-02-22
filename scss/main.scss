@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
 }
-$enable-responsive-font-sizes: true;
+
 $font-stack:    Helvetica, sans-serif;
-$primary-color:#676767;
+$primary-color: #676767;
 
 body {
 font: 100% $font-stack;
@@ -15,7 +15,7 @@ color: $primary-color;
     margin: 0;
     padding-right: 10px;
     width: 141px;
-    height: 900px;
+    height: 1200px;
     font-size: 123px;
     font-weight: 100;
     color:$primary-color;
@@ -59,10 +59,9 @@ color: $primary-color;
 }
 
 #p{
-  color:$primary-color;
-  
+  color:$primary-color;  
   &letra{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: 1px;
     //text-transform: lowercase;
@@ -107,7 +106,19 @@ color: $primary-color;
   letter-spacing: 2px;
 
 }  
-  
+%message {
+    position: left;
+    top: 660px;
+    font-family: $font-stack;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 30px;
+}
+
+.success {
+    @extend %message;
+    background-color: rgb(236, 243, 234);
+} 
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -121,7 +132,7 @@ color: $primary-color;
     margin: 0;
     padding-right: 10px;
     width: 141px;
-    height: 1800px;
+    height: 2000px;
     font-size: 123px;
     font-weight: 100;
     color:$primary-color;
@@ -146,7 +157,7 @@ color: $primary-color;
     margin: 0;
     padding-right: 10px;
     width: 141px;
-    height: 1800px;
+    height: 2000px;
     font-size: 123px;
     font-weight: 100;
     color:$primary-color;

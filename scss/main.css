@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding-right: 10px;
   width: 141px;
-  height: 900px;
+  height: 1200px;
   font-size: 123px;
   font-weight: 100;
   color: #676767;
@@ -61,7 +61,7 @@ body {
 }
 
 #pletra {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 1px;
   margin-bottom: 15px;
@@ -108,6 +108,19 @@ body {
   letter-spacing: 2px;
 }
 
+.success {
+  position: left;
+  top: 660px;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 30px;
+}
+
+.success {
+  background-color: #ecf3ea;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -121,7 +134,7 @@ body {
     margin: 0;
     padding-right: 10px;
     width: 141px;
-    height: 1800px;
+    height: 2000px;
     font-size: 123px;
     font-weight: 100;
     color: #676767;
@@ -145,7 +158,7 @@ body {
     margin: 0;
     padding-right: 10px;
     width: 141px;
-    height: 1800px;
+    height: 2000px;
     font-size: 123px;
     font-weight: 100;
     color: #676767;
