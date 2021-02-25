@@ -134,7 +134,7 @@ body {
     margin: 0;
     padding-right: 10px;
     width: 141px;
-    height: 1200px;
+    height: 1800px;
     font-size: 123px;
     font-weight: 100;
     color: #676767;
@@ -158,7 +158,7 @@ body {
     margin: 0;
     padding-right: 10px;
     width: 141px;
-    height: 1200px;
+    height: 1800px;
     font-size: 123px;
     font-weight: 100;
     color: #676767;
@@ -167,13 +167,13 @@ body {
     background-image: url("https://i.pinimg.com/564x/a0/7e/bd/a07ebd32b489dcf01905f35d0f73b306.jpg");
     background-attachment: fixed;
   }
+  #footer {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 992px) {
   #kolomrechts {
-    display: none;
-  }
-  #footer {
     display: none;
   }
 }
