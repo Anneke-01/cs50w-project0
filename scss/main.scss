@@ -28,7 +28,7 @@ color: $primary-color;
 #kolomrechts {
   position: fixed;
   top: 0px;
-  left: 900px;
+  left: 70vw;
   width: 300px;
   float: left;
   border-left: 1px solid #B2B2B2;
@@ -41,9 +41,9 @@ color: $primary-color;
 }
 
 #footer{
-  position: fixed;
-  top: 560px;
-  left: 1000px;
+  position: relative;
+  top: 100px;
+  left: 40%; 
   padding-left: 0px;
   color:$primary-color;
   font-size: 60%;
@@ -121,6 +121,7 @@ color: $primary-color;
 } 
 
 /* Responsive layout - makes a two column-layout instead of four columns */
+
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
@@ -167,4 +168,12 @@ color: $primary-color;
     background-attachment: fixed;
   }
   
+}
+@media screen and (max-width:992px){
+  #kolomrechts{
+    display: none;
+  }
+  #footer{
+    display:none;
+  }
 }
